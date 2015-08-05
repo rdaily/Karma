@@ -1,6 +1,9 @@
 .header-style {
-
-
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	margin-top: 35px;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -9,6 +12,8 @@
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	display: inline-block;
+
 
 }
 
@@ -18,24 +23,28 @@
 	word-spacing: 5px;
 	cursor: pointer;
 	color; #333333;
-	
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	float: left;
+	display: inline-block;
+
 }
 
 
 
 .links {
-	display: inline-block;
-	margin-top: 0 auto;
-	margin-left: 0px;
-
-
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
 }
 
 .active {
 	display: inline-block;
-	margin-left: 150px;
-	
-
+	margin-left: 40px;
+	float: left;
 
 }
 
@@ -49,22 +58,28 @@
 
 .introduction {
 	background-image: url("http://imgur.com/nEkRTcl");
+	background-size: 1000px;
 	background-position: center bottom; 
-	padding-top: 20px;
+	padding-top: 160px;
 	background-repeat: no-repeat;
-	background-size: cover;
 	overflow: auto;
 
 
 }
 
-
 .content {
+	position: absolute;
+	top: 0;
+	left: 700px;
+	top: 400px;
+	display:inline-block;
 	position: center;
-	margin: 0 auto;
+	color: white
 
 
 }
+
+
 
 .big-button {
 	text-shadow: none;
@@ -77,4 +92,23 @@
 	font-size: 14px;
 	color: white;
 	margin-top: 50px;
+}
+
+
+.cases .devices {
+	font-family: 'roboto', sans-serif;
+	text-align: center;
+	font-size: 24px;
+	width: 33.333333%;
+	display:inline-block;
+	height; 4em;
+
+
+}
+
+.devices {
+	box-sizing: border-box;
+	display: inline-block;	
+
+
 }
