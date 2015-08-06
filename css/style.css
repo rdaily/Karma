@@ -38,8 +38,6 @@
 
 .links {
 	margin: 10px
-	width: 100%;
-	padding: 10px;
 	list-style: none;
 	display: inline-block;
 
@@ -74,19 +72,16 @@
 	background-position: center bottom; 
 	background-repeat: no-repeat;
 	margin-top: 100px;
+	display: block;
 
 
 }
 
 .content {
-	
-	top: 100px;
-	left: 700px;
-	top: 400px;
-	display:inline-block;
-	position: center;
-	color: white
 
+	text-align: center;
+	color: white;
+	
 
 }
 
@@ -96,23 +91,30 @@
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
-	padding: 16px 26px;
 	line-height: 1.33;
 	width: 150px;
 	background-color: orange;
 	font-size: 14px;
 	color: white;
-	margin-top: 50px;
+	margin-top: 0px;
+	display: inline-block;
+	padding-top: 16px;
+  	padding-right: 26px;
+  	padding-bottom: 16px;
+  	padding-left: 26px;
 }
-<<<<<<< HEAD
+
 
 
 .cases .devices {
 	font-family: 'roboto', sans-serif;
-	text-align: center;
+	vertical-align: top;
 	font-size: 24px;
 	width: 33.333333%;
-	display:inline-block;
+	display: inline-block;
+	list-style: none;
+	float: center;	
+	margin-left: 20em;
 	height; 4em;
 
 
